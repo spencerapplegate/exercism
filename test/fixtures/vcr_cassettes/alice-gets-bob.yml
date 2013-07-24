@@ -54,7 +54,7 @@ http_interactions:
         go make out behind the gym!\")\n  end\n\n  def test_shouting_numbers\n    skip\n    assert_equal
         ''Woah, chill out!'', bob.hey(''1, 2, 3 GO!'')\n  end\n\n  def test_shouting_with_special_characters\n    skip\n    assert_equal
         ''Woah, chill out!'', bob.hey(''ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!'')\n  end\n\n  def
-        test_silence\n    skip\n    assert_equal ''Fine, be that way.'', bob.hey('''')\n  end\n\nend\n"},{"track":"javascript","slug":"anagram","readme":"#
+        test_silence\n    skip\n    assert_equal ''Fine, be that way!'', bob.hey('''')\n  end\n\nend\n"},{"track":"javascript","slug":"anagram","readme":"#
         Anagram\n\nWrite a program that, given a word and a list of possible anagrams,
         selects the correct one(s).\n\nIn other words, given: `\"listen\"` and `%w(enlists
         google inlets banana)` the program should return \"inlets\".\n\n\n## Source\n\nInspired
